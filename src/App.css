@@ -49,6 +49,7 @@ a:link, a:visited, a:active, a:hover {
   flex-direction: column;
   justify-content: center;
   height: 40vh;
+/*  nonsens*/
 }
 
 .contact-items {
