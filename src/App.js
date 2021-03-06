@@ -14,7 +14,7 @@ function App() {
       </header>
       <section className="main-container">
           <section className="intro">
-              <img className="w-40 greens" src={greens} alt="greens"/>
+              <img className="greens" src={greens} alt="greens"/>
               <h1 className="intro-text">EDIBLE MICROGREENS IN YOUR HOME.</h1>
           </section>
           <section className="icons-section flex flex-column justify-center items-center">

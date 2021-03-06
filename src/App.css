@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: Montserrat, serif;
+  font-family: Montserrat, serif!important;
 }
 
 .App-header {
@@ -25,6 +25,8 @@ a:link, a:visited, a:active, a:hover {
 
 .greens {
   margin-top: 2em;
+  max-width: 40%;
+  /*min-width: 300px;*/
 }
 
 .intro-text {
@@ -32,16 +34,18 @@ a:link, a:visited, a:active, a:hover {
   font-family: Montserrat, serif;
   margin: 0;
   font-weight: bold;
+  padding:  0 3rem 0 3rem;
 }
 
 .icons-section {
-  height: 40vh;
+  min-height: 15rem;
   background-color: #ebebeb;
 }
 
 .icons {
   padding: 2em;
-  width: 45%;
+  max-width: 800px;
+  /*min-width: 300px;*/
 }
 
 .contact {
